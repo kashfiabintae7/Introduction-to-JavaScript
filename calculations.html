@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="" />
+  <body>
+    <h1>JavaScript Variables and Calculation</h1>
+    <h3>Sum of Two Numbers:</h3>
+    <p id="sum"></p>
+    <h3>Subtraction of Two Numbers:</h3>
+    <p id="sub"></p>
+    <h3>Multiplication of Two Numbers:</h3>
+    <p id="mult"></p>
+    <h3>Division of Two Numbers:</h3>
+    <p id="div"></p>
+    <script>
+      var sum, sub, mult, div;
+      const x = 10;
+      const y = 40;
+      sum = x + y;
+      sub = x - y;
+      mult = x * y;
+      div = x / y;
+
+      document.getElementById(
+        "sum"
+      ).innerHTML = `The sum of ${x} + ${y} = ${sum}`;
+      document.getElementById(
+        "sub"
+      ).innerHTML = `The Subtraction of ${x} - ${y} = ${sub}`;
+      document.getElementById(
+        "mult"
+      ).innerHTML = `The Multiplication of ${x} x ${y} = ${mult}`;
+      document.getElementById(
+        "div"
+      ).innerHTML = `The Division of ${x} + ${y} = ${div}`;
+    </script>
+  </body>
+</html>
