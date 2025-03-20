@@ -1,0 +1,80 @@
+body {
+  font-family: Impact, "Arial Narrow Bold", sans-serif !important;
+  margin: 100px;
+}
+
+#grad1 {
+  height: 100vh;
+  background-image: linear-gradient(
+    to top left,
+    palegreen,
+    lightskyblue,
+    lavender,
+    rgb(243, 209, 215),
+    lavender,
+    lightskyblue,
+    palegreen,
+    olivedrab
+  );
+}
+#zero {
+  font-family: "Arial Narrow Bold", sans-serif;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/741/2/563/glitter-themed-for-desktops-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px !important;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 160px;
+  color: snow;
+  text-shadow: 4px 4px 20px royalblue;
+}
+
+#one {
+  font-size: 40px;
+  color: lightseagreen;
+  background-color: rgba(253, 161, 108, 0.463);
+}
+#two {
+  font-size: 40px;
+  color: mediumslateblue;
+  background-color: rgba(107, 181, 222, 0.652);
+}
+#three {
+  font-size: 40px;
+  color: salmon;
+  background-color: rgba(200, 235, 57, 0.38);
+}
+#four {
+  font-size: 40px;
+  color: midnightblue;
+  background-color: rgba(162, 109, 202, 0.399);
+}
+#sum {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(195, 158, 141);
+  font-style: italic;
+}
+#sub {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: steelblue;
+  font-style: italic;
+}
+#mult {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkkhaki;
+  font-style: italic;
+}
+#div {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: mediumpurple;
+  font-style: italic;
+}

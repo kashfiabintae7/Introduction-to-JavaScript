@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+
+  <body id="grad1" class="text-center mt-5">
+    <h1 id="zero">JavaScript Variables and Calculationヾ(＠⌒ー⌒＠)ノ</h1>
+    <h3 id="one" class="mt-5">Sum of Two Numbers:</h3>
+    <p id="sum" class="mt-5"></p>
+    <h3 id="two" class="mt-5">Subtraction of Two Numbers:</h3>
+    <p id="sub" class="mt-5"></p>
+    <h3 id="three" class="mt-5">Multiplication of Two Numbers:</h3>
+    <p id="mult" class="mt-5"></p>
+    <h3 id="four" class="mt-5">Division of Two Numbers:</h3>
+    <p id="div" class="mt-5"></p>
+    <script>
+      var sum, sub, mult, div;
+      const x = 10;
+      const y = 40;
+      sum = x + y;
+      sub = x - y;
+      mult = x * y;
+      div = x / y;
+
+      document.getElementById(
+        "sum"
+      ).innerHTML = `The sum of ${x} + ${y} = ${sum}`;
+      document.getElementById(
+        "sub"
+      ).innerHTML = `The Subtraction of ${x} - ${y} = ${sub}`;
+      document.getElementById(
+        "mult"
+      ).innerHTML = `The Multiplication of ${x} x ${y} = ${mult}`;
+      document.getElementById(
+        "div"
+      ).innerHTML = `The Division of ${x} + ${y} = ${div}`;
+    </script>
+  </body>
+</html>
